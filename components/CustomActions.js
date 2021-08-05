@@ -6,12 +6,12 @@ import * as Permissions from 'expo-permissions';
 import * as ImagePicker from 'expo-image-picker';
 import * as Location from 'expo-location';
 
-import firebase from 'firebase';
-import 'firebase/firestore';
+// import firebase from 'firebase';
+// import 'firebase/firestore';
 
-// const firebase = require('firebase');
-//  require('firebase/firestore');
-//  require('firebase/auth')
+const firebase = require('firebase');
+  require('firebase/firestore');
+  require('firebase/auth')
 
 
 export default class CustomActions extends React.Component {
