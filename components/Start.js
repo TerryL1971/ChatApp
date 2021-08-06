@@ -26,24 +26,40 @@ export default class Start extends React.Component {
         <View style={styles.selectorsView}>
             <View style={styles.selectorsContainer}>
               <TouchableOpacity
+                accessible={true}
+                accessibilityLabel="More options"
+                accessibilityHint="Lets you choose the background of the chat screen to marshland black."
+                accessibilityRole="button"
                 style={[styles.selector, { backgroundColor: '#090C08' }]}
                 onPress={() => this.setState({ backgroundColor: '#090C08' })}
               />
             </View>
             <View style={styles.selectorsContainer}>
               <TouchableOpacity
+                accessible={true}
+                accessibilityLabel="More options"
+                accessibilityHint="Lets you choose the background of the chat screen to mulled wine."
+                accessibilityRole="button"
                 style={[styles.selector, { backgroundColor: '#474056' }]}
                 onPress={() => this.setState({ backgroundColor: '#474056' })}
               />
             </View>
             <View style={styles.selectorsContainer}>
               <TouchableOpacity
+                accessible={true}
+                accessibilityLabel="More options"
+                accessibilityHint="Lets you choose the background of the chat screen to regent grey."
+                accessibilityRole="button"
                 style={[styles.selector, { backgroundColor: '#8A95A5' }]}
                 onPress={() => this.setState({ backgroundColor: '#8A95A5' })}
               />
             </View>
             <View style={styles.selectorsContainer}>
               <TouchableOpacity
+                accessible={true}
+                accessibilityLabel="More options"
+                accessibilityHint="Lets you choose the background of the chat screen to clay ash."
+                accessibilityRole="button"
                 style={[styles.selector, { backgroundColor: '#B9C6AE' }]}
                 onPress={() => this.setState({ backgroundColor: '#B9C6AE' })}
               />
